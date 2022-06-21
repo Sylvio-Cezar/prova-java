@@ -11,19 +11,19 @@ public class Questao03 {
         int numero = scan.nextInt();
 
         if (numero % 5 == 0) {
-            System.out.println(numero + " --> " + numero);
+            System.out.println(numero);
             System.out.println("---------------------------");
         }
         else if ((numero + 1) % 5 == 0) {
-            System.out.println(numero + " --> " + (numero + 1));
+            System.out.println((numero + 1));
             System.out.println("---------------------------");
         }
         else if ((numero + 2) % 5 == 0) {
-            System.out.println(numero + " --> " + (numero + 2));
+            System.out.println((numero + 2));
             System.out.println("---------------------------");
         }
         else {
-            System.out.println(numero + " --> " + numero);
+            System.out.println(numero);
             System.out.println("---------------------------");
         }
     }
